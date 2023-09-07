@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta author="Anant Batgali">
+</head>
+<body style="margin: 1em;">
+    <h1>Interest Calculator</h1><hr>
+    <form style="padding: 2em;">
+        <label for="principal" style="display: block; margin-bottom: 10px;">Principal</label>
+        <input type="text" id="principal" name="principal" style="margin-bottom: 20px;">
+        
+        <label for="interest" style="display: block; margin-bottom: 10px;">Interest Rate</label>
+        <input type="text" id="interest" name="interest" style="margin-bottom: 20px;">
+        
+        <label for="time" style="display: block; margin-bottom: 10px;">Time (In Years) </label>
+        <input type="text" id="time" name="time" style="margin-bottom: 20px;">
+        <br>
+        <button type="button" name="calculate" onclick="calcInterest()" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Calculate</button>
+    </form>
+    <hr>
+    <br>
+
+    <script src="formula.js"></script>
+        
+        
+    
+</body>
+</html>
